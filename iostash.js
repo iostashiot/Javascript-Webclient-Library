@@ -7403,6 +7403,12 @@ iostash = function () {
     })
   }
 
+  onDisconnect = function(callbacl) {
+    socket.on('disconnect',function(){
+      callback()
+    })
+  }
+
   return {
     'init': init,
     'initPublic': initPublic,
@@ -7414,7 +7420,9 @@ iostash = function () {
     'unSubscribeDataPoint': unSubscribeDataPoint,
     'subscribeActions': subscribeActions,
     'subscribeCustomData': subscribeCustomData,
-    'subscribeLocation': subscribeLocation
+    'subscribeLocation': subscribeLocation,
+    'onDisconnect': onDisconnect
+
   }
 
 }()
