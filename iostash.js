@@ -1,6 +1,6 @@
 /*
 
-IOStash Javascript Web Client v0.1 BETA 
+IOStash Javascript Web Client v0.1 BETA 2
 Includes socket.io JS client library
 Copyright(c) 2016 IOStash
 http://iostash.io
