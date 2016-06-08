@@ -1,14 +1,17 @@
-IOStash Javascript Web Client Library
+
+![IOStash IoT PaaS](http://iostash.io/wp-content/uploads/2016/06/iostashbeta_black.png) 
+
+Javascript Web Client Library
 ===================
 
 
 Javascript web Client library for IOStash IoT PaaS. Supports realtime data subscription to Devices, Data Points, Location, Channels and Custom Data sent to devices.
 
  **Including**
-
+JS client is available via th JSDelivr CDN.
  
 
-      <script type="text/javascript" src="https://api.iostash.io/assets/js/iostash.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/iostash/0.1/iostash.js"></script>
 
  
  **How To Use**
