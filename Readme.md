@@ -16,7 +16,7 @@ JS client is available via th JSDelivr CDN.
  
  **How To Use**
 
-This library supports all realtime events supported by IOStash. Refer to API Docs on http://iostash.com for more information and guides about using this library.
+This library supports all realtime events supported by IOStash. Refer to API Docs on http://docs.iostash.io for more information and guides about using this library.
 
       var iostash = require('iostash')
       iostash.init('X-ACCESS-TOKEN_HERE')

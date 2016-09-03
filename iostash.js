@@ -7285,13 +7285,6 @@ iostash = function () {
       })
     }
 
-    socket.on('disconnect', function (d) {
-      socket.disconnect()
-
-      console.log('Connection terminated')
-      window.alert('Realtime connection failed! Try reloading the page')
-    })
-
   }
 
   initPublic = function (devToken) {
@@ -7313,12 +7306,6 @@ iostash = function () {
         console.log(data.message)
       })
     }
-
-    socket.on('disconnect', function () {
-      socket.disconnect()
-      console.log('Connection terminated')
-      window.alert('Realtime connection failed! Try reloading the page')
-    })
 
   }
 
