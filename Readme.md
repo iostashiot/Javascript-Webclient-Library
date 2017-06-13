@@ -55,4 +55,4 @@ This example utilises a public device defined in IOStash.
 - While using `initPublic()` method for initialization, channel functions are not available.
 - This library does not (yet) support data pushing to IOStash.
 
-For support or assistance, drop an email to support@iostash.com
+For support or assistance, drop an email to aravind@iostash.io
